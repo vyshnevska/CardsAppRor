@@ -41,26 +41,20 @@ class DecksController < ApplicationController
 
   # GET /decks/1
   # GET /decks/1.json
-  def show
-    @deck = Deck.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @deck }
-    end
-  end
-
-  # GET /decks/new
-  # GET /decks/new.json
+  #def show
+  #  @deck = Deck.find(params[:id])
+  #
+  #  respond_to do |format|
+  #    format.html # show.html.erb
+  #    format.json { render json: @deck }
+  #  end
+  #end
 
 
-  # GET /decks/1/edit
-  def edit
-    @deck = Deck.find(params[:id])
-  end
+  #def edit
+  #  @deck = Deck.find(params[:id])
+  #end
 
-  # POST /decks
-  # POST /decks.json
   def create
     @deck = Deck.new(params[:deck])
 
@@ -75,21 +69,19 @@ class DecksController < ApplicationController
     end
   end
 
-  # PUT /decks/1
-  # PUT /decks/1.json
-  def update
-    @deck = Deck.find(params[:id])
-
-    respond_to do |format|
-      if @deck.update_attributes(params[:deck])
-        format.html { redirect_to @deck, notice: 'Deck was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @deck.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #def update
+  #  @deck = Deck.find(params[:id])
+  #
+  #  respond_to do |format|
+  #    if @deck.update_attributes(params[:deck])
+  #      format.html { redirect_to @deck, notice: 'Deck was successfully updated.' }
+  #      format.json { head :no_content }
+  #    else
+  #      format.html { render action: "edit" }
+  #      format.json { render json: @deck.errors, status: :unprocessable_entity }
+  #    end
+  #  end
+  #end
 
   # DELETE /decks/1
   # DELETE /decks/1.json

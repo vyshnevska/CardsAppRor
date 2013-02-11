@@ -15,6 +15,10 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
+    <div class="field">
+      <%= f.label :game_name %><br />
+      <%= f.select :id, Game.all.map { |a| [a.name, a.id] }, :prompt => "--Choose a game--" %>
+    </div>
   <!--<div class="field">-->
     <%#= f.label :has_cards %><br />
     <!--<%#= f.check_box :has_cards %>-->

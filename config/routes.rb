@@ -1,5 +1,7 @@
 CardsAppRoR::Application.routes.draw do
-  resources :games
+  resources :games  do
+    get 'assign_player', :on => :member
+  end
 
   resources :players
 

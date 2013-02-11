@@ -7402,3 +7402,3324 @@ Served asset /players.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-08 15:01:47 +0200
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-11 15:14:18 +0200
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 995ms (Views: 994.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /cards.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /players.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /decks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /games.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:24 +0200
+Served asset /cards.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /decks.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /games.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/deck.gif" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /deck.gif - 200 OK (36ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:25 +0200
+Served asset /players.js - 304 Not Modified (48ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2013-02-11 15:14:28 +0200
+Processing by GamesController#new as HTML
+  [1m[36mPlayer Load (20.7ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  Rendered games/_form.html.erb (820.5ms)
+  Rendered games/new.html.erb within layouts/application (867.7ms)
+Completed 200 OK in 1306ms (Views: 902.7ms | ActiveRecord: 35.9ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /games.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:30 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (24.6ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (106.9ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (181.5ms)
+Completed 200 OK in 241ms (Views: 105.3ms | ActiveRecord: 131.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:33 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:34 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:34 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/players/new" for 127.0.0.1 at 2013-02-11 15:14:40 +0200
+Processing by PlayersController#new as HTML
+  Rendered players/_form.html.erb (8.8ms)
+  Rendered players/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:40 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:40 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:40 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/players" for 127.0.0.1 at 2013-02-11 15:14:44 +0200
+Processing by PlayersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "player"=>{"name"=>"Pl2"}, "commit"=>"Create Player"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (29.1ms)[0m  [1mINSERT INTO "players" ("created_at", "has_cards", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 11 Feb 2013 13:14:44 UTC +00:00], ["has_cards", nil], ["name", "Pl2"], ["updated_at", Mon, 11 Feb 2013 13:14:44 UTC +00:00]]
+  [1m[35m (45.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/players/3
+Completed 302 Found in 171ms (ActiveRecord: 75.1ms)
+
+
+Started GET "/players/3" for 127.0.0.1 at 2013-02-11 15:14:44 +0200
+Processing by PlayersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered players/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 48ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:44 +0200
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:45 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:14:48 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:33:31 +0200
+Connecting to database specified by database.yml
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (38.5ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (208.6ms)
+Completed 500 Internal Server Error in 840ms
+
+ActionView::Template::Error (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+    40:   <tr colspan="8">
+    41:     <td>
+    42:       <%= link_to "Add player to game: ",
+    43:                   :action => 'assign_player', :id => @game.id %>
+    44:     </td>
+    45:   </tr>
+    46: 
+  app/views/games/index.html.erb:43:in `_app_views_games_index_html_erb___1421938942185432333_70322046346640'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.8ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:36:02 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 568ms (Views: 561.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /games.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /cards.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /decks.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /players.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /cards.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /scaffolds.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /games.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /decks.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:05 +0200
+Served asset /players.js - 304 Not Modified (11ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:08 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "games" SET "player_id" = NULL, "game_date" = '2013-02-10 22:00:00.000000', "updated_at" = '2013-02-11 13:36:29.661031' WHERE "games"."id" = 1
+  [1m[36m (4.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 43ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:29 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:36:30 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:56:54 +0200
+Connecting to database specified by database.yml
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered games/index.html.erb within layouts/application (189.0ms)
+Completed 500 Internal Server Error in 390ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329527340760'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329527340760'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.1ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:58:05 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.8ms)[0m  SELECT "games".* FROM "games" 
+  Rendered games/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 37ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.7ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:58:11 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered games/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 15:58:23 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  Rendered games/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 15:58:49 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.6ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `assign_player_path' for #<#<Class:0x007fedbcb997e8>:0x007fedbc2978e8>):
+    3: <%#= link_to "Add player to game",
+    4:             :action => 'assign_player', :id => @game.id %>
+    5: 
+    6: <%= link_to 'New player', assign_player_path %>
+    7: <%= link_to 'Edit', edit_game_path(@game) %> |
+    8: <%= link_to 'Back', games_path %>
+    9: <%= link_to 'Show list of games', games_path %>
+  app/views/games/show.html.erb:6:in `_app_views_games_show_html_erb___4117165056522630755_70329520402700'
+  app/controllers/games_controller.rb:17:in `show'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.7ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 15:59:35 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 460ms (Views: 458.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /cards.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /decks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /games.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /players.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /application.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /cards.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /decks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /games.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /players.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:36 +0200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:54 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/assign_player.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 15:59:56 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:00:06 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered games/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329527148580'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:00:21 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" 
+  Rendered games/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329535857300'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329535857300'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (75.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (95.9ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:00:42 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered games/index.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActiveRecord::RecordNotFound (Couldn't find Player without an ID):
+  app/views/games/index.html.erb:23:in `block in _app_views_games_index_html_erb___865717194643010269_70329535886720'
+  app/views/games/index.html.erb:17:in `each'
+  app/views/games/index.html.erb:17:in `_app_views_games_index_html_erb___865717194643010269_70329535886720'
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  Rendered games/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:12 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 32ms (Views: 24.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:45 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:46 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/assign_player.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:01:47 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 16:02:36 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" 
+  Rendered games/assign_player.html.erb within layouts/application (448.2ms)
+Completed 200 OK in 483ms (Views: 479.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /cards.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:37 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started PUT "/games/1" for 127.0.0.1 at 2013-02-11 16:02:43 +0200
+Processing by GamesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "game"=>{"name"=>"First Game", "player_id"=>"1"}, "commit"=>"Update Game", "id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.6ms)[0m  [1mUPDATE "games" SET "player_id" = 1, "game_date" = '2013-02-10 22:00:00.000000', "updated_at" = '2013-02-11 14:02:43.816416' WHERE "games"."id" = 1[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 58ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 16:02:43 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:43 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:44 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 16:02:47 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  Rendered games/assign_player.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:47 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:47 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /decks.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /players.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:48 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/games/1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Processing by GamesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "game"=>{"name"=>"First Game", "player_id"=>"2"}, "commit"=>"Update Game", "id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  UPDATE "games" SET "player_id" = 2, "game_date" = '2013-02-10 22:00:00.000000', "updated_at" = '2013-02-11 14:02:51.695870' WHERE "games"."id" = 1
+  [1m[36m (4.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 11ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:02:52 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/assign_player" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Processing by GamesController#assign_player as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" 
+  Rendered games/assign_player.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:11 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started PUT "/games/1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Processing by GamesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "game"=>{"name"=>"First Game", "player_id"=>"1"}, "commit"=>"Update Game", "id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "games" SET "player_id" = 1, "game_date" = '2013-02-10 22:00:00.000000', "updated_at" = '2013-02-11 14:03:14.186611' WHERE "games"."id" = 1[0m
+  [1m[35m (3.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/games/1
+Completed 302 Found in 12ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:03:14 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:11:01 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" 
+  Rendered games/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:01 +0200
+Served asset /games.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:01 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:01 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:01 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:11:02 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:11:57 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" [0m
+ERROR: compiling _app_views_games_index_html_erb___865717194643010269_70329527235700 RAISED /Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:23: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...er.find(game.player_id).name? );@output_buffer.safe_concat('...
+...                               ^
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+');   end 
+         ^
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:44: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:46: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_games_index_html_erb___865717194643010269_70329527235700(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "games/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Listing games</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Date</th>
+    <th>ID</th>
+    <th>Players</th>
+    <th>Show</th>
+    <th>Modify</th>
+    <th>Destroy</th>
+  </tr>
+  </thead>
+  <tbody>
+');   @games.each do |game| 
+@output_buffer.safe_concat('      <tr>
+        <td>#</td>
+        <td>');@output_buffer.append= ( game.name );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( game.game_date );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( game.id );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( if Player.find(game.player_id).name? );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( link_to 'Show', game );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( link_to 'Edit', edit_game_path(game) );@output_buffer.safe_concat('</td>
+        <td>');@output_buffer.append= ( link_to 'Destroy', game, method: :delete, data: {confirm: 'Are you sure?'} );@output_buffer.safe_concat('</td>
+      </tr>
+');   end 
+@output_buffer.safe_concat('  <tr colspan="8">
+    <td>
+      ');@output_buffer.append= ( link_to 'New player', new_player_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </td>
+  </tr>
+
+  <tr colspan="8">
+    <td>
+      ');@output_buffer.append= ( link_to 'New', new_game_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </td>
+  </tr>
+
+
+  </tbody>
+</table>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/mac/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/mac/RubymineProjects/CardsAppRoR/app/controllers/games_controller.rb:7:in `index'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__2808041487513346512__process_action__813197698827827013__callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/etag.rb:23:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/conditionalget.rb:25:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__2942297298470346685__call__2517390802770867121__callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/methodoverride.rb:21:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/runtime.rb:17:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/lock.rb:15:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/content_length.rb:14:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.3/lib/rack/handler/webrick.rb:59:in `service'
+/Users/mac/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/mac/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/mac/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered games/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:23: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...er.find(game.player_id).name? );@output_buffer.safe_concat('...
+...                               ^
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+');   end 
+         ^
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:44: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/mac/RubymineProjects/CardsAppRoR/app/views/games/index.html.erb:46: syntax error, unexpected keyword_end, expecting ')'):
+    20:         <td><%= game.name %></td>
+    21:         <td><%= game.game_date %></td>
+    22:         <td><%= game.id %></td>
+    23:         <td><%= if Player.find(game.player_id).name? %></td>
+    24:         <td><%= link_to 'Show', game %></td>
+    25:         <td><%= link_to 'Edit', edit_game_path(game) %></td>
+    26:         <td><%= link_to 'Destroy', game, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+  app/controllers/games_controller.rb:7:in `index'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.6ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:14:57 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (24.0ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 264ms (Views: 238.3ms | ActiveRecord: 24.3ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:14:58 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/1/edit" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Processing by GamesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPlayer Load (10.8ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  Rendered games/_form.html.erb (31.8ms)
+  Rendered games/edit.html.erb within layouts/application (671.4ms)
+Completed 200 OK in 847ms (Views: 828.7ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:04 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:05 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 234ms (Views: 232.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:11 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Processing by GamesController#new as HTML
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players" 
+  Rendered games/_form.html.erb (11.5ms)
+  Rendered games/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 134ms (Views: 131.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:17 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:18 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "game"=>{"name"=>"Second Game", "player_id"=>""}, "commit"=>"Create Game"}
+  [1m[36m (13.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (18.5ms)[0m  INSERT INTO "games" ("created_at", "game_date", "name", "player_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 11 Feb 2013 14:15:25 UTC +00:00], ["game_date", Sun, 10 Feb 2013 22:00:00 UTC +00:00], ["name", "Second Game"], ["player_id", nil], ["updated_at", Mon, 11 Feb 2013 14:15:25 UTC +00:00]]
+  [1m[36m (36.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/games/2
+Completed 302 Found in 79ms (ActiveRecord: 68.5ms)
+
+
+Started GET "/games/2" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered games/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:25 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:26 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:28 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:29 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:29 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:29 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:15:29 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:24:17 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:17 +0200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:17 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /decks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:18 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  Rendered players/index.html.erb within layouts/application (62.9ms)
+Completed 200 OK in 103ms (Views: 91.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:25 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/players/1/edit" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Processing by PlayersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mGame Load (1.0ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered players/_form.html.erb (6.7ms)
+  Rendered players/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 72ms (Views: 40.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:29 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:30 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started PUT "/players/1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Processing by PlayersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "player"=>{"name"=>"Pl1", "id"=>"1"}, "commit"=>"Update Player", "id"=>"1"}
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/players/1
+Completed 302 Found in 9ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/players/1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Processing by PlayersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered players/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 60ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:35 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:36 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:36 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:24:36 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" 
+  Rendered players/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /cards.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /games.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:02 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/players/2/edit" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Processing by PlayersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT "games".* FROM "games" 
+  Rendered players/_form.html.erb (4.2ms)
+  Rendered players/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /players.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:07 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started PUT "/players/2" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Processing by PlayersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "player"=>{"name"=>"Pl2", "id"=>"1"}, "commit"=>"Update Player", "id"=>"2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/players/2
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/players/2" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Processing by PlayersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered players/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:25:13 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  Rendered players/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:31 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/players/3/edit" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Processing by PlayersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  Rendered players/_form.html.erb (8.5ms)
+  Rendered players/edit.html.erb within layouts/application (60.1ms)
+Completed 200 OK in 132ms (Views: 128.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /cards.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:34 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/players/3" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Processing by PlayersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "player"=>{"name"=>"Pl3", "id"=>"1"}, "commit"=>"Update Player", "id"=>"3"}
+  [1m[35mPlayer Load (0.0ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "players" SET "name" = 'Pl3', "updated_at" = '2013-02-11 14:27:40.361534' WHERE "players"."id" = 3
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/players/3
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/players/3" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Processing by PlayersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered players/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 142ms (Views: 139.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:27:40 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:26 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:27 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:28:27 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.0ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered games/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /jquery.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:29:40 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /players.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-11 16:30:03 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-02-11 16:30:05 +0200
+
+NoMethodError (undefined method `stringify_keys' for 1:Fixnum):
+  app/controllers/decks_controller.rb:6:in `new'
+  app/controllers/decks_controller.rb:6:in `block in initialize'
+  app/controllers/decks_controller.rb:6:in `collect'
+  app/controllers/decks_controller.rb:6:in `initialize'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-02-11 16:31:16 +0200
+
+NoMethodError (undefined method `stringify_keys' for 0:Fixnum):
+  app/controllers/decks_controller.rb:6:in `new'
+  app/controllers/decks_controller.rb:6:in `block in initialize'
+  app/controllers/decks_controller.rb:6:in `collect'
+  app/controllers/decks_controller.rb:6:in `initialize'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-02-11 16:44:37 +0200
+
+NoMethodError (undefined method `stringify_keys' for 15:Fixnum):
+  app/controllers/decks_controller.rb:6:in `new'
+  app/controllers/decks_controller.rb:6:in `block in initialize'
+  app/controllers/decks_controller.rb:6:in `collect'
+  app/controllers/decks_controller.rb:6:in `initialize'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (201.6ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-02-11 16:44:45 +0200
+
+NoMethodError (undefined method `stringify_keys' for 8:Fixnum):
+  app/controllers/decks_controller.rb:6:in `new'
+  app/controllers/decks_controller.rb:6:in `block in initialize'
+  app/controllers/decks_controller.rb:6:in `collect'
+  app/controllers/decks_controller.rb:6:in `initialize'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/cards" for 127.0.0.1 at 2013-02-11 16:44:56 +0200
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/cards_controller.rb:8:in `initialize'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.9ms)

@@ -1,6 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<%#= link_to "Add player to game",
+            :action => 'assign_player', :id => @game.id %>
 
+<%= link_to 'Assign player', assign_player_game_path %>
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Back', games_path %>
 <%= link_to 'Show list of games', games_path %>
