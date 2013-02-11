@@ -1,0 +1,36 @@
+<h1>Listing players</h1>
+<table>
+  <thead>
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Has cards</th>
+    <th>ID</th>
+    <!--<th>Own cards</th>-->
+    <!--<th>Suit cards</th>-->
+    <!--<th>Min suit card</th>-->
+    <th>Show</th>
+    <th>Modify</th>
+    <th>Destroy</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @players.each do |player| %>
+      <tr>
+        <td>#</td>
+        <td><%= player.name %></td>
+        <td><%= player.has_cards %></td>
+        <td><%= player.id %></td>
+        <td><%= link_to 'Show', player %></td>
+        <td><%= link_to 'Edit', edit_player_path(player) %></td>
+        <td><%= link_to 'Destroy', player, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+  <tr colspan="7">
+    <td>
+      <%= link_to 'New Player', new_player_path %>
+    </td>
+  </tr>
+
+  </tbody>
+</table>

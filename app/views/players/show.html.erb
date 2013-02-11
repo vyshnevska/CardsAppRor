@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @player.name %>
+</p>
+
+<p>
+  <b>Has cards:</b>
+  <% if @player.has_cards %>
+      <%= "has" %>
+  <% else %>
+      <%= "no" %>
+  <% end %>
+
+
+</p>
+
+<!--<p>-->
+<!--<b>Own cards:</b>-->
+<!--<%#= @player.own_cards %>-->
+<!--</p>-->
+
+<!--<p>-->
+<!--<b>Suit cards:</b>-->
+<!--<%#= @player.suit_cards %>-->
+<!--</p>-->
+
+<!--<p>-->
+<!--<b>Min suit card:</b>-->
+<!--<%#= @player.min_suit_card %>-->
+<!--</p>-->
+
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>
+<%= link_to 'See games', games_path %>
+<%= link_to 'See players', players_path %>

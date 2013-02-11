@@ -1,0 +1,12 @@
+<center>
+  <p style="font-family: times, serif; font-size:14pt; font-style:italic">game home page index</p>
+
+  <img src="assets/deck.gif" alt="cards"/>
+  <%# image_tag "assets/deck.gif" %>
+  <p>AVAILABLE ACTIONS</p>
+  <%= link_to 'New Shuffled Deck', new_deck_path %>
+  <br/>
+  <%= link_to 'New Game', new_game_path %>
+  <br/>
+  <%= link_to 'See games', games_path %>
+</center>

@@ -1,0 +1,40 @@
+<%= form_for(@player) do |f| %>
+  <% if @player.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@player.errors.count, "error") %> prohibited this player from being saved:</h2>
+
+      <ul>
+      <% @player.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <!--<div class="field">-->
+    <%#= f.label :has_cards %><br />
+    <!--<%#= f.check_box :has_cards %>-->
+  <!--</div>-->
+    <!--<div class="field">-->
+      <!--<%#= f.label :own_cards %>-->
+      <!--<br/>-->
+      <!--<%#= f.text_field :own_cards %>-->
+    <!--</div>-->
+    <!--<div class="field">-->
+      <!--<%#= f.label :suit_cards %>-->
+      <!--<br/>-->
+      <!--<%#= f.text_field :suit_cards %>-->
+    <!--</div>-->
+    <!--<div class="field">-->
+      <!--<%#= f.label :min_suit_card %>-->
+      <!--<br/>-->
+      <!--<%#= f.text_field :min_suit_card %>-->
+    <!--</div>-->
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

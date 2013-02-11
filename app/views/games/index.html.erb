@@ -1,0 +1,41 @@
+<h1>Listing games</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Date</th>
+    <th>ID</th>
+    <th>Players</th>
+    <th>Show</th>
+    <th>Modify</th>
+    <th>Destroy</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @games.each do |game| %>
+      <tr>
+        <td>#</td>
+        <td><%= game.name %></td>
+        <td><%= game.game_date %></td>
+        <td><%= game.id %></td>
+        <td><%= Player.find(game.player_id).name %></td>
+        <td><%= link_to 'Show', game %></td>
+        <td><%= link_to 'Edit', edit_game_path(game) %></td>
+        <td><%= link_to 'Destroy', game, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+  <tr colspan="8">
+    <td>
+      <%= link_to 'Add new player', new_player_path %>
+    </td>
+  </tr>
+
+  <tr colspan="8">
+    <td>
+      <%= link_to 'New', new_game_path %>
+    </td>
+  </tr>
+  </tbody>
+</table>

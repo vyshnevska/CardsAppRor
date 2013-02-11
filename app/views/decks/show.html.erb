@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cards:</b>
+  <%= @deck.cards %>
+</p>
+
+<p>
+  <b>Count:</b>
+  <%= @deck.count %>
+</p>
+
+<p>
+  <b>Players:</b>
+  <%= @deck.players %>
+</p>
+
+<p>
+  <b>Trump:</b>
+  <%= @deck.trump %>
+</p>
+
+
+<%= link_to 'Edit', edit_deck_path(@deck) %> |
+<%= link_to 'Back', decks_path %>

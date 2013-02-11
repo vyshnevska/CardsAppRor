@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  has_cards: false
+  own_cards: 
+  suit_cards: 
+  min_suit_card: 
+
+two:
+  name: MyString
+  has_cards: false
+  own_cards: 
+  suit_cards: 
+  min_suit_card: 
