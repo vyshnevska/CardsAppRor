@@ -1,35 +1,8 @@
 class DecksController < ApplicationController
+  #attr_accessible :cards
+  VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
+  SUITS = %w(Spade Heart Club Diamond)
 
-  def initialize
-    @count = 0
-    @trump = 0
-    self.cards = (0..15).to_a.shuffle.collect { |id| Card.new(id) }
-    puts "Deck is created"
-    $START_GAME = 1
-    self.cards.each do |card|
-      @@play_deck << card
-      #@@cards_count += 1
-      @count += 1
-    end
-    @players = []
-  end
-
-  def self.play_deck
-    @@play_deck.each do |pd|
-      pd.show
-      if ((@@play_deck.index(pd)+1 )%4 == 0)
-        puts"\n"
-      end
-    end
-  end
-  def new
-    @deck = Deck.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @deck }
-    end
-  end
   def index
     @decks = Deck.all
 
@@ -38,21 +11,19 @@ class DecksController < ApplicationController
       format.json { render json: @decks }
     end
   end
+  def new
+    @deck = Deck.new
+    52.times do
+      card = @deck.cards.build
+    end
+    @deck.cards.each_with_index do |c, id|
+      c.value = VALUES[id % 13]
+      c.suit = SUITS[id % 4]
+    end
+  end
 
-  # GET /decks/1
-  # GET /decks/1.json
   #def show
-  #  @deck = Deck.find(params[:id])
-  #
-  #  respond_to do |format|
-  #    format.html # show.html.erb
-  #    format.json { render json: @deck }
-  #  end
-  #end
-
-
-  #def edit
-  #  @deck = Deck.find(params[:id])
+  # @deck = Deck.find(params[:id])
   #end
 
   def create
@@ -67,8 +38,24 @@ class DecksController < ApplicationController
         format.json { render json: @deck.errors, status: :unprocessable_entity }
       end
     end
+
   end
 
+  # GET /decks/1
+  # GET /decks/1.json
+  def show
+    @deck = Deck.find(params[:id])
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @deck }
+    end
+  end
+
+
+  #def edit
+  #  @deck = Deck.find(params[:id])
+  #end
   #def update
   #  @deck = Deck.find(params[:id])
   #
@@ -95,3 +82,36 @@ class DecksController < ApplicationController
     end
   end
 end
+#
+
+#
+#class CardLocal
+#  VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
+#  SUITS = %w(Spade Heart Club Diamond)
+#
+#  attr_accessor :value, :suit
+#
+#  def initialize(id)
+#    self.value = VALUES[id % 13]
+#    self.suit = SUITS[id % 4]
+#  end
+#
+##def show
+##  @card = CardLocal.find(params[:id])
+##end
+##
+#  def new
+#    @card = CardLocal.new
+#  end
+#end
+#def create
+#  @card = CardLocal.new(params[:card])
+#  @card.save
+#end
+#end
+#class DeckLocal
+#  attr_accessor :cards
+#  def initialize
+#    self.cards = (0..51).to_a.shuffle.collect { |id| Card.new(id) }
+#  end
+#end

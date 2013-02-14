@@ -1,20 +1,23 @@
 <p id="notice"><%= notice %></p>
+ <h2>Cards</h2>
+<%= render @deck.cards %>
+<!--<p>-->
+  <!--<b>Value:</b>-->
+  <!--<%#= @card.value %>-->
+<!--</p>-->
 
-<p>
-  <b>Value:</b>
-  <%= @card.value %>
-</p>
+<!--<p>-->
+  <!--<b>Suit:</b>-->
+  <!--<%#= @card.suit %>-->
+<!--</p>-->
 
-<p>
-  <b>Suit:</b>
-  <%= @card.suit %>
-</p>
+<!--<p>-->
+  <!--<b>Id:</b>-->
+  <!--<%#= @card.id %>-->
+<!--</p>-->
 
-<p>
-  <b>Id:</b>
-  <%= @card.id %>
-</p>
-
+<h3>Add card</h3>
+<%= render 'cards/form' %>
 
 <%= link_to 'Edit', edit_card_path(@card) %> |
 <%= link_to 'Back', cards_path %>

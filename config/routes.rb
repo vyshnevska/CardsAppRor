@@ -5,9 +5,9 @@ CardsAppRoR::Application.routes.draw do
 
   resources :players
 
-  resources :decks
-
-  resources :cards
+  resources :decks do
+    resources :cards
+  end
 
    root :to => "home#index"
 end

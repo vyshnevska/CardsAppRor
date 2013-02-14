@@ -1,8 +1,11 @@
-<p id="notice"><%= notice %></p>
+<!--<p id="notice"><%#= notice %></p>-->
 
 <p>
   <b>Cards:</b>
-  <%= @deck.cards %>
+  <%= @deck.cards.each do |c| %>
+    <%= c.suit %>
+    <%= c.value %>
+  <%end%>
 </p>
 
 <p>
@@ -12,14 +15,14 @@
 
 <p>
   <b>Players:</b>
-  <%= @deck.players %>
+  <%#= @deck.players %>
 </p>
 
 <p>
   <b>Trump:</b>
-  <%= @deck.trump %>
+  <%= @deck.trump_card_id %>
 </p>
-
+<%#= render @deck.cards %>
 
 <%= link_to 'Edit', edit_deck_path(@deck) %> |
 <%= link_to 'Back', decks_path %>
