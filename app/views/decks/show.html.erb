@@ -1,12 +1,38 @@
-<!--<p id="notice"><%#= notice %></p>-->
+<table>
+  <%# @shuffled_cards.each do |card| %>
+  <tr>
 
-<p>
-  <b>Cards:</b>
-  <%= @deck.cards.each do |c| %>
-    <%= c.suit %>
-    <%= c.value %>
-  <%end%>
-</p>
+    <% for i in 0..12 do %>
+        <% card = @deck.cards[i] %>
+        <td align="center">
+          <%= image_tag "cards/" + card.suit + card.value + ".png" %>
+        </td>
+    <% end %>
+  </tr>
+  <tr><% for i in 13..25 do %>
+    <% card = @deck.cards[i]%>
+    <td align="center">
+      <%=image_tag "cards/" + card.suit + card.value + ".png" %>
+    </td>
+    <% end %>
+  </tr>
+  <tr>
+    <%for i in 26..38 do %>
+    <%card = @deck.cards[i]%>
+    <td align="center">
+      <%=image_tag "cards/" + card.suit + card.value + ".png" %>
+    </td>
+    <% end %>
+  </tr>
+
+  <tr> <% for i in 39..51 do %>
+    <% card = @deck.cards[i]%>
+    <td align="center">
+      <%=image_tag "cards/" + card.suit + card.value + ".png" %>
+    </td>
+    <% end %>
+  </tr>
+ </table>
 
 <p>
   <b>Count:</b>
@@ -25,4 +51,4 @@
 <%#= render @deck.cards %>
 
 <%= link_to 'Edit', edit_deck_path(@deck) %> |
-<%= link_to 'Back', decks_path %>
+<%= link_to 'List of Decks', decks_path %>

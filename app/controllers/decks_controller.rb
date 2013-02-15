@@ -2,7 +2,7 @@ class DecksController < ApplicationController
   #attr_accessible :cards
   VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
   SUITS = %w(Spade Heart Club Diamond)
-
+  after_filter :save_count, :only=> [:create]
   def index
     @decks = Deck.all
 
@@ -22,12 +22,14 @@ class DecksController < ApplicationController
     end
   end
 
-  #def show
-  # @deck = Deck.find(params[:id])
-  #end
+  def save_count
+    @deck.count =  @deck.cards.count
+    @deck.save
+  end
 
   def create
     @deck = Deck.new(params[:deck])
+
 
     respond_to do |format|
       if @deck.save
@@ -38,7 +40,7 @@ class DecksController < ApplicationController
         format.json { render json: @deck.errors, status: :unprocessable_entity }
       end
     end
-
+    #@deck.save
   end
 
   # GET /decks/1
