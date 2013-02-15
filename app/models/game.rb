@@ -1,5 +1,5 @@
 class Game < ActiveRecord::Base
-  #attr_accessible :name, :game_date, :player_id
+  attr_accessible :name, :game_date, :player_id
   #attr_writer :name
   validates :name, :presence => true
   has_one :deck
