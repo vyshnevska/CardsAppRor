@@ -81,3 +81,4 @@ class PlayersController < ApplicationController
     #  end
     #end
   end
+end
