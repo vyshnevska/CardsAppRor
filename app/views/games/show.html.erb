@@ -10,7 +10,7 @@
 <p>
   <b>Players:</b>   </p>
   <% @game.players.each do |p| %>
-    <p> <%= p.id %> : <%= p.name %></p>
+    <p> <%= p.id %> : <%= p.name %> : <%= p.has_cards %> </p>
  <%end%>
 
 

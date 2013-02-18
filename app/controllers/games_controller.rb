@@ -35,9 +35,10 @@ class GamesController < ApplicationController
         if p.name.empty?
           p.delete
         end
+
       end
     end
-
+   # @game.save
   end
 
   # GET /games/1/edit
@@ -50,7 +51,9 @@ class GamesController < ApplicationController
   # POST /games.json
   def create
     @game = Game.new(params[:game])
-
+    @game.players.each do |p|
+      p.has_cards = 0
+    end
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
@@ -66,7 +69,9 @@ class GamesController < ApplicationController
   # PUT /games/1.json
   def update
     @game = Game.find(params[:id])
-
+    @game.players.each do |p|
+      p.has_cards = 0
+    end
     respond_to do |format|
       if @game.update_attributes(params[:game])
         format.html { redirect_to @game, notice: 'Game was successfully updated.' }

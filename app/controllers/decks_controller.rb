@@ -1,7 +1,7 @@
 class DecksController < ApplicationController
   VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
   SUITS = %w(Spade Heart Club Diamond)
-  after_filter :save_count, :only => [:create]
+  after_filter :save_count, :only => [:create, :update]
 
   def index
     @decks = Deck.all
