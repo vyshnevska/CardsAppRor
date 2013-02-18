@@ -1,0 +1,11 @@
+"Add player"
+
+<%= simple_form_for @game do |f| %>
+    <%= f.players do |p| %>
+        <p>
+          <%= p.label :name, "Player name" %>
+          <%= p.text_field :name %>
+        </p>
+    <% end %>
+    <%= f.button :submit %>
+<% end %>

@@ -1,4 +1,5 @@
 class GamesController < ApplicationController
+  after_filter :exclude_nil_pl, :only => [:create, :update]
   # GET /games
   # GET /games.json
   def index
@@ -23,8 +24,18 @@ class GamesController < ApplicationController
   # GET /games/new.json
   def new
     @game = Game.new
-    2.times do
-      player = @game.players.build
+    #5.times do
+    player = @game.players.build
+    #end
+  end
+
+  def exclude_nil_pl
+    if @game.players
+      @game.players.each do |p|
+        if p.name.empty?
+          p.delete
+        end
+      end
     end
 
   end
@@ -35,18 +46,11 @@ class GamesController < ApplicationController
 
   end
 
- # POST /games
+  # POST /games
   # POST /games.json
   def create
     @game = Game.new(params[:game])
 
-    if @game.players
-      @game.players.each do |p|
-        if p.name.empty?
-          p.delete
-        end
-      end
-    end
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
@@ -84,23 +88,5 @@ class GamesController < ApplicationController
       format.html { redirect_to games_url }
       format.json { head :no_content }
     end
-  end
-
-  def assign_player
-
-    #  @game = Game.find(params[:id])
-    #  @game.player_id = params[:game]
-      #assign_player_path
-      #respond_to do |format|
-      #  if @game.update_attributes(params[:game])
-      #    format.html { redirect_to @game, notice: 'Game was successfully updated.' }
-      #    format.json { head :no_content }
-      #  else
-      #    format.html { render action: "edit" }
-      #    format.json { render json: @game.errors, status: :unprocessable_entity }
-      #  end
-      #end
-
-
   end
 end
