@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130214121049) do
+ActiveRecord::Schema.define(:version => 20130215154050) do
 
   create_table "cards", :force => true do |t|
     t.string   "value"
@@ -34,7 +34,6 @@ ActiveRecord::Schema.define(:version => 20130214121049) do
     t.datetime "game_date"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "player_id"
   end
 
   create_table "players", :force => true do |t|
@@ -42,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20130214121049) do
     t.boolean  "has_cards"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "game_id"
   end
 
 end

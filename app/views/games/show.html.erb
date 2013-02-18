@@ -1,9 +1,24 @@
 <p id="notice"><%= notice %></p>
+<p>
+  <b>Game:</b>
+  <%= @game.name %>
+</p>
+<p>
+  <b>Game Date:</b>
+  <%= @game.game_date %>
+</p>
+<p>
+  <b>Players:</b>   </p>
+  <% @game.players.each do |p| %>
+    <p> <%= p.id %> : <%= p.name %></p>
+ <%end%>
+
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Show list of games', games_path %>
 
 <%#= link_to "Add player to game",
             :action => 'assign_player', :id => @game.id %>
 
-<%= link_to 'Assign player', assign_player_game_path %>
-<%= link_to 'Edit', edit_game_path(@game) %> |
-<%= link_to 'Back', games_path %>
-<%= link_to 'Show list of games', games_path %>
+<%#= link_to 'Assign player', assign_player_game_path %>
+

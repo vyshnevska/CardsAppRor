@@ -10,7 +10,6 @@ class GamesController < ApplicationController
     end
   end
 
-
   def show
     @game = Game.find(params[:id])
 
@@ -24,25 +23,30 @@ class GamesController < ApplicationController
   # GET /games/new.json
   def new
     @game = Game.new
-   # @game.game_date = Time.now
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @game }
+    2.times do
+      player = @game.players.build
     end
+
   end
 
   # GET /games/1/edit
   def edit
     @game = Game.find(params[:id])
+
   end
 
-  # POST /games
+ # POST /games
   # POST /games.json
   def create
     @game = Game.new(params[:game])
 
-   # @game.game_date = Date.today
-    #@game.name = 'test'
+    if @game.players
+      @game.players.each do |p|
+        if p.name.empty?
+          p.delete
+        end
+      end
+    end
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
@@ -84,8 +88,8 @@ class GamesController < ApplicationController
 
   def assign_player
 
-      @game = Game.find(params[:id])
-      @game.player_id = params[:game]
+    #  @game = Game.find(params[:id])
+    #  @game.player_id = params[:game]
       #assign_player_path
       #respond_to do |format|
       #  if @game.update_attributes(params[:game])

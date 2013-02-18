@@ -4,7 +4,7 @@ gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem "nested_form"
 gem "pg", :group => :production
 gem "sqlite3-ruby", :group => :development
 gem "simple_form"

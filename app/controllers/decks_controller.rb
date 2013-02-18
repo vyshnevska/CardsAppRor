@@ -1,8 +1,8 @@
 class DecksController < ApplicationController
-  #attr_accessible :cards
   VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
   SUITS = %w(Spade Heart Club Diamond)
-  after_filter :save_count, :only=> [:create]
+  after_filter :save_count, :only => [:create]
+
   def index
     @decks = Deck.all
 
@@ -11,6 +11,7 @@ class DecksController < ApplicationController
       format.json { render json: @decks }
     end
   end
+
   def new
     @deck = Deck.new
     52.times do
@@ -23,14 +24,12 @@ class DecksController < ApplicationController
   end
 
   def save_count
-    @deck.count =  @deck.cards.count
+    @deck.count = @deck.cards.count
     @deck.save
   end
 
   def create
     @deck = Deck.new(params[:deck])
-
-
     respond_to do |format|
       if @deck.save
         format.html { redirect_to @deck, notice: 'Deck was successfully created.' }

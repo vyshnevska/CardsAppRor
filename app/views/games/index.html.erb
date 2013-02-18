@@ -22,8 +22,10 @@
         <td><%= game.game_date %></td>
         <td><%= game.id %></td>
         <td>
-          <% if game.player_id? %>
-              <%= Player.find(game.player_id).name %>
+          <% if !game.players.empty? %>
+              <p>has  <%= game.players.count %></p>
+          <% else %>
+              <p>don't have</p>
           <% end %></td>
         <td><%= link_to 'Show', game %></td>
         <td><%= link_to 'Edit', edit_game_path(game) %></td>
@@ -33,7 +35,7 @@
   <% end %>
   <tr colspan="9">
     <td>
-      <%= link_to 'New player', new_player_path %>
+      <%#= link_to 'New player', new_game_player_path %>
     </td>
   </tr>
 

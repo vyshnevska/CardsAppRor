@@ -1,14 +1,14 @@
 class CardsController < ApplicationController
 
-  VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
-  SUITS = %w(Spade Heart Club Diamond)
+  #VALUES = %w(2 3 4 5 6 7 8 9 10 J Q K A)
+  #SUITS = %w(Spade Heart Club Diamond)
 
-  attr_accessor :value, :suit, :id
+  #attr_accessor :value, :suit, :id
 
-  def initialize (id)
-    self.value = VALUES[id % 13]
-    self.suit = SUITS[id % 4]
-  end
+  #def initialize (id)
+  #  self.value = VALUES[id % 13]
+  #  self.suit = SUITS[id % 4]
+  #end
   def new
     #@card = (0..11).to_a.shuffle.collect { |id| Card.new(id) }
     #@cards_attributes = (0..11).to_a.shuffle.collect { |id| @card.match(id) }
@@ -33,10 +33,10 @@ class CardsController < ApplicationController
   #  @card.save
   end
   def destroy
-    @deck = Deck.find(params[:deck_id])
-    @card =  @deck.cards.find(params[:id])
-    @card.destroy
-    redirect_to deck_path(@deck)
+    #@deck = Deck.find(params[:deck_id])
+    #@card =  @deck.cards.find(params[:id])
+    #@card.destroy
+    #redirect_to deck_path(@deck)
   end
 #  def show_card
 #    if self

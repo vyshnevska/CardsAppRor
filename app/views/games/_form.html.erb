@@ -1,17 +1,9 @@
 <%= simple_form_for @game do |f| %>
-    <% if @game.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(@game.errors.count, "error") %> prohibited this game from being saved:</h2>
-
-          <ul>
-            <% @game.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-            <% end %>
-          </ul>
-        </div>
+    <%= f.label :name, "Game name" %>
+    <%= f.text_field :name %>
+    <%= f.fields_for :players do |builder| %>
+        <%= render "players_fields", :f => builder %>
     <% end %>
-        <%= f.input :name %> <br/>
-        <%= f.label :player %>
-        <%= f.select :player_id, Player.all.map { |a| [a.name, a.id] }, :prompt => "--Choose a player--" %>
-        <%= f.button :submit %>
- <%end %>
+    <p><%= link_to_add_fields "Add Player", f, :players %>
+    <%= f.button :submit %>
+<%end%>
