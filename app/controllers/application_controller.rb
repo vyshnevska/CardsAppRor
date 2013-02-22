@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  attr_accessor :game_status
   #protect_from_forgery
   #def index
   #  @decks = Deck.all

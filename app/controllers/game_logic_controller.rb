@@ -13,7 +13,7 @@ class GameLogicController < ApplicationController
     @game = Game.find(params[:id])
     respond_to do |format|
       if !@game.players.empty?
-        redirect_to :controller => "decks", :action => "new", :game_id => params[:id]
+        format.html {redirect_to :controller => "decks", :action => "new", :game_id => params[:id] }
       else
         format.html { redirect_to games_path, notice: "Please add player for #{@game.name}"}
         # render :template =>"games/index"

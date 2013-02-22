@@ -26,16 +26,7 @@
       <file leaf-file-name="game_logic_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/game_logic_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="75" selection-start="721" selection-end="721" vertical-scroll-proportion="0.44589773">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/games/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="598" selection-end="598" vertical-scroll-proportion="-9.375">
+            <state line="22" column="84" selection-start="591" selection-end="591" vertical-scroll-proportion="0.39239">
               <folding />
             </state>
           </provider>
@@ -44,7 +35,7 @@
       <file leaf-file-name="decks_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/decks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="45" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
+            <state line="26" column="46" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,30 +44,22 @@
       <file leaf-file-name="games_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="73" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+            <state line="19" column="8" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#504#596#0" expanded="false" />
+                <element signature="e#191#287#0" expanded="false" />
+                <element signature="e#357#451#0" expanded="false" />
                 <element signature="e#600#768#0" expanded="false" />
-                <element signature="e#794#844#0" expanded="false" />
                 <element signature="e#885#1361#0" expanded="false" />
+                <element signature="e#1404#1871#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="62" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/game.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="76" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+            <state line="1" column="28" selection-start="70" selection-end="81" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,14 +82,14 @@
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/game_logic/start.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/game_logic/create_deck.html.erb" />
         <option value="$PROJECT_DIR$/app/models/deck.rb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/app/views/decks/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/decks/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/decks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/games/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/decks_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/game_logic_controller.rb" />
       </list>
     </option>
@@ -149,7 +132,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,28 +254,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardsAppRoR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardsAppRoR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -333,18 +293,19 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="Mercurial.Project" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Mercurial.Project" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled/card_game.rb" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -613,13 +574,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="965" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.123011015" sideWeight="0.6002304" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17992656" sideWeight="0.6002304" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18237454" sideWeight="0.6002304" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39865622" sideWeight="0.497552" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39976957" sideWeight="0.49816403" order="7" side_tool="true" content_ui="tabs" />
@@ -688,11 +649,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.32967034" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="38" selection-start="246" selection-end="246" vertical-scroll-proportion="0.23809524" />
@@ -728,6 +684,23 @@
         <state line="11" column="27" selection-start="320" selection-end="320" vertical-scroll-proportion="0.20195839" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.43396226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/decks/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="67" selection-start="506" selection-end="506" vertical-scroll-proportion="0.29375765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="62" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="76" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
@@ -735,56 +708,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/decks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="45" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.43396226">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="598" selection-end="598" vertical-scroll-proportion="-9.375">
+        <state line="15" column="34" selection-start="598" selection-end="598" vertical-scroll-proportion="0.28301886">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/decks/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="506" selection-end="506" vertical-scroll-proportion="0.29375765">
+        <state line="1" column="28" selection-start="70" selection-end="81" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/decks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.125">
+        <state line="26" column="46" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="73" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+        <state line="19" column="8" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#504#596#0" expanded="false" />
+            <element signature="e#191#287#0" expanded="false" />
+            <element signature="e#357#451#0" expanded="false" />
             <element signature="e#600#768#0" expanded="false" />
-            <element signature="e#794#844#0" expanded="false" />
             <element signature="e#885#1361#0" expanded="false" />
+            <element signature="e#1404#1871#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/game_logic_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="75" selection-start="721" selection-end="721" vertical-scroll-proportion="0.44589773">
+        <state line="22" column="84" selection-start="591" selection-end="591" vertical-scroll-proportion="0.39239">
           <folding />
         </state>
       </provider>

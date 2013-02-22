@@ -71338,3 +71338,1043 @@ Served asset /players.js - 304 Not Modified (0ms)
 
 Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:16:30 +0200
 Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:42:40 +0200
+Connecting to database specified by database.yml
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22
+  [1m[36mPlayer Load (0.0ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  Rendered games/index.html.erb within layouts/application (223.6ms)
+Completed 200 OK in 632ms (Views: 541.4ms | ActiveRecord: 44.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /games.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /cards.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /game_logic.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /decks.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /players.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /game_logic.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /cards.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /decks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /games.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /nested_form.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:42 +0200
+Served asset /players.js - 304 Not Modified (2ms)
+
+
+Started GET "/game_logic/18/start" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "18"]]
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22[0m
+  [1m[35mPlayer Load (0.0ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  Rendered games/index.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 73ms (Views: 68.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:48 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:42:49 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/28/start" for 127.0.0.1 at 2013-02-22 17:42:55 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "28"]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+Redirected to http://localhost:3000/decks/new?game_id=28
+Completed 406 Not Acceptable in 7ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/game_logic/28/start" for 127.0.0.1 at 2013-02-22 17:43:08 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "28"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+Redirected to http://localhost:3000/decks/new?game_id=28
+Completed 406 Not Acceptable in 315ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (2.7ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  Rendered games/index.html.erb within layouts/application (149.8ms)
+Completed 200 OK in 178ms (Views: 168.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:12 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/29/start" for 127.0.0.1 at 2013-02-22 17:43:13 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "29"]]
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+Redirected to http://localhost:3000/decks/new?game_id=29
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/game_logic/20/start" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "20"]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  Rendered games/index.html.erb within layouts/application (81.2ms)
+Completed 200 OK in 114ms (Views: 106.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /games.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:23 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/25/start" for 127.0.0.1 at 2013-02-22 17:43:26 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "25"]]
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25
+Redirected to http://localhost:3000/games
+Completed 302 Found in 6ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:43:26 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.9ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  Rendered games/index.html.erb within layouts/application (100.3ms)
+Completed 200 OK in 171ms (Views: 165.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /game_logic.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:43:27 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/28/start" for 127.0.0.1 at 2013-02-22 17:43:29 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "28"]]
+  [1m[36mPlayer Load (1.0ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+Redirected to http://localhost:3000/decks/new?game_id=28
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" 
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22[0m
+  [1m[35mPlayer Load (0.0ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35m (5.8ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  Rendered games/index.html.erb within layouts/application (129.8ms)
+Completed 200 OK in 223ms (Views: 195.5ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:10 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:11 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/18/start" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mGame Load (0.4ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "18"]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+Redirected to http://localhost:3000/games
+Completed 302 Found in 48ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20
+  [1m[36mPlayer Load (0.1ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  Rendered games/index.html.erb within layouts/application (106.2ms)
+Completed 200 OK in 127ms (Views: 120.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:13 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/game_logic/29/start" for 127.0.0.1 at 2013-02-22 17:44:16 +0200
+Processing by GameLogicController#start as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "29"]]
+  [1m[36mPlayer Load (13.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+Redirected to http://localhost:3000/decks/new?game_id=29
+Completed 302 Found in 21ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/decks/new?game_id=29" for 127.0.0.1 at 2013-02-22 17:44:16 +0200
+Processing by DecksController#new as HTML
+  Parameters: {"game_id"=>"29"}
+  Rendered decks/_cards_fields.html.erb (1.8ms)
+  Rendered decks/_cards_fields.html.erb (1.2ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (1.0ms)
+  Rendered decks/_cards_fields.html.erb (0.2ms)
+  Rendered decks/_cards_fields.html.erb (1.2ms)
+  Rendered decks/_cards_fields.html.erb (1.3ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (1.6ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.9ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (1.3ms)
+  Rendered decks/_cards_fields.html.erb (2.4ms)
+  Rendered decks/_cards_fields.html.erb (1.6ms)
+  Rendered decks/_cards_fields.html.erb (1.1ms)
+  Rendered decks/_cards_fields.html.erb (0.9ms)
+  Rendered decks/_cards_fields.html.erb (0.9ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (1.4ms)
+  Rendered decks/_cards_fields.html.erb (1.0ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (2.2ms)
+  Rendered decks/_cards_fields.html.erb (1.5ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/_cards_fields.html.erb (0.7ms)
+  Rendered decks/_cards_fields.html.erb (1.3ms)
+  Rendered decks/_cards_fields.html.erb (1.0ms)
+  Rendered decks/_cards_fields.html.erb (0.9ms)
+  Rendered decks/_cards_fields.html.erb (0.8ms)
+  Rendered decks/new.html.erb within layouts/application (206.4ms)
+Completed 200 OK in 367ms (Views: 222.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /decks.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:17 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started POST "/decks" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Processing by DecksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJwzNc8m+Fw/yQKWs4wg4lreAxbzd9kXJUYqpBAXnTg=", "deck"=>{"game_id"=>"29", "cards_attributes"=>{"0"=>{"suit"=>"Spade", "value"=>"2"}, "1"=>{"suit"=>"Heart", "value"=>"3"}, "2"=>{"suit"=>"Club", "value"=>"4"}, "3"=>{"suit"=>"Diamond", "value"=>"5"}, "4"=>{"suit"=>"Spade", "value"=>"6"}, "5"=>{"suit"=>"Heart", "value"=>"7"}, "6"=>{"suit"=>"Club", "value"=>"8"}, "7"=>{"suit"=>"Diamond", "value"=>"9"}, "8"=>{"suit"=>"Spade", "value"=>"10"}, "9"=>{"suit"=>"Heart", "value"=>"J"}, "10"=>{"suit"=>"Club", "value"=>"Q"}, "11"=>{"suit"=>"Diamond", "value"=>"K"}, "12"=>{"suit"=>"Spade", "value"=>"A"}, "13"=>{"suit"=>"Heart", "value"=>"2"}, "14"=>{"suit"=>"Club", "value"=>"3"}, "15"=>{"suit"=>"Diamond", "value"=>"4"}, "16"=>{"suit"=>"Spade", "value"=>"5"}, "17"=>{"suit"=>"Heart", "value"=>"6"}, "18"=>{"suit"=>"Club", "value"=>"7"}, "19"=>{"suit"=>"Diamond", "value"=>"8"}, "20"=>{"suit"=>"Spade", "value"=>"9"}, "21"=>{"suit"=>"Heart", "value"=>"10"}, "22"=>{"suit"=>"Club", "value"=>"J"}, "23"=>{"suit"=>"Diamond", "value"=>"Q"}, "24"=>{"suit"=>"Spade", "value"=>"K"}, "25"=>{"suit"=>"Heart", "value"=>"A"}, "26"=>{"suit"=>"Club", "value"=>"2"}, "27"=>{"suit"=>"Diamond", "value"=>"3"}, "28"=>{"suit"=>"Spade", "value"=>"4"}, "29"=>{"suit"=>"Heart", "value"=>"5"}, "30"=>{"suit"=>"Club", "value"=>"6"}, "31"=>{"suit"=>"Diamond", "value"=>"7"}, "32"=>{"suit"=>"Spade", "value"=>"8"}, "33"=>{"suit"=>"Heart", "value"=>"9"}, "34"=>{"suit"=>"Club", "value"=>"10"}, "35"=>{"suit"=>"Diamond", "value"=>"J"}, "36"=>{"suit"=>"Spade", "value"=>"Q"}, "37"=>{"suit"=>"Heart", "value"=>"K"}, "38"=>{"suit"=>"Club", "value"=>"A"}, "39"=>{"suit"=>"Diamond", "value"=>"2"}, "40"=>{"suit"=>"Spade", "value"=>"3"}, "41"=>{"suit"=>"Heart", "value"=>"4"}, "42"=>{"suit"=>"Club", "value"=>"5"}, "43"=>{"suit"=>"Diamond", "value"=>"6"}, "44"=>{"suit"=>"Spade", "value"=>"7"}, "45"=>{"suit"=>"Heart", "value"=>"8"}, "46"=>{"suit"=>"Club", "value"=>"9"}, "47"=>{"suit"=>"Diamond", "value"=>"10"}, "48"=>{"suit"=>"Spade", "value"=>"J"}, "49"=>{"suit"=>"Heart", "value"=>"Q"}, "50"=>{"suit"=>"Club", "value"=>"K"}, "51"=>{"suit"=>"Diamond", "value"=>"A"}}}, "commit"=>"Create Deck"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (57.1ms)[0m  [1mINSERT INTO "decks" ("count", "created_at", "game_id", "trump_card_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["count", nil], ["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["game_id", 29], ["trump_card_id", nil], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00]]
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "2"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "3"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "4"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "5"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "6"]]
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "7"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "8"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "9"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "10"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "J"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "Q"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "K"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "A"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "2"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "3"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "4"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "5"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "6"]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "7"]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "8"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "9"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "10"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "J"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "Q"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "K"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "A"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "2"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "3"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "4"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "5"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "6"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "7"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "8"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "9"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "10"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "J"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "Q"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "K"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "A"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "2"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "3"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "4"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "5"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "6"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "7"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "8"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "9"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "10"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Spade"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "J"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Heart"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "Q"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Club"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "K"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "cards" ("created_at", "deck_id", "suit", "updated_at", "value") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["deck_id", 82], ["suit", "Diamond"], ["updated_at", Fri, 22 Feb 2013 15:44:31 UTC +00:00], ["value", "A"]]
+  [1m[35m (11.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/decks/82
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "cards" WHERE "cards"."deck_id" = 82[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "decks" SET "count" = 52, "updated_at" = '2013-02-22 15:44:31.681879' WHERE "decks"."id" = 82[0m
+  [1m[35m (3.0ms)[0m  commit transaction
+Completed 302 Found in 296ms (ActiveRecord: 87.3ms)
+
+
+Started GET "/decks/82" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"82"}
+  [1m[36mDeck Load (0.3ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "82"]]
+  [1m[35mCard Load (1.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = 82
+  Rendered decks/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /decks.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:31 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /games.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:32 +0200
+Served asset /players.js - 304 Not Modified (0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2013-02-22 17:44:33 +0200
+Processing by GamesController#index as HTML
+  [1m[36mGame Load (0.3ms)[0m  [1mSELECT "games".* FROM "games" [0m
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 18
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 19[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 20
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 21[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 22
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 25[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 26
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 27[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 28[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 29[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 30[0m
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "players" INNER JOIN "games_players" ON "players"."id" = "games_players"."player_id" WHERE "games_players"."game_id" = 31[0m
+  Rendered games/index.html.erb within layouts/application (139.7ms)
+Completed 200 OK in 178ms (Views: 171.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/cards.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /cards.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /decks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /game_logic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /games.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /players.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cards.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /cards.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/game_logic.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /game_logic.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /games.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /decks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nested_form.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /nested_form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-02-22 17:44:34 +0200
+Served asset /players.js - 304 Not Modified (0ms)
