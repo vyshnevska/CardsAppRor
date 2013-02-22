@@ -1,5 +1,7 @@
 <h1 xmlns="http://www.w3.org/1999/html">New deck to create</h1>
 <%= simple_form_for @deck do |f| %>
+    <%= f.label :game_id, "Game ID" %>
+    <%= f.text_field :game_id %>
 
     <%= f.fields_for :cards do |builder| %>
         <%= render "cards_fields", :f => builder %>

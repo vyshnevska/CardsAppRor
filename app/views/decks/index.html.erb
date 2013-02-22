@@ -5,7 +5,6 @@
         <th>Deck ID: <%= deck.id %></th>
         <th>Cards</th>
         <th>Count</th>
-        <th>Players</th>
         <th>Trump</th>
         <th></th>
         <th></th>
@@ -50,7 +49,6 @@
 
         </table>
         <td><%= deck.count %></td>
-        <td><%#= deck.players %></td>
         <td><%= deck.trump_card_id %></td>
         <td><%= link_to 'Show', deck %></td>
         <td><%= link_to 'Edit', edit_deck_path(deck) %></td>

@@ -4,6 +4,7 @@ class DecksController < ApplicationController
   after_filter :save_count, :only => [:create, :update]
 
   def index
+    # @game = Game.find(params[:game_id])
     @decks = Deck.all
 
     respond_to do |format|
@@ -13,6 +14,11 @@ class DecksController < ApplicationController
   end
 
   def new
+    #@article = Article.find(params[:article_id])
+    #@comments = @articles.comments.find(params[:comment_id])
+    #@repcomment = Repcomment.new
+
+    # @game = Game.find(params[:game_id])
     @deck = Deck.new
     52.times do
       card = @deck.cards.build
@@ -21,6 +27,8 @@ class DecksController < ApplicationController
       c.value = VALUES[id % 13]
       c.suit = SUITS[id % 4]
     end
+    @deck.game_id = params[:game_id]
+    #  redirect_to @deck, notice: 'Deck was successfully start.'
   end
 
   def save_count
@@ -39,7 +47,6 @@ class DecksController < ApplicationController
         format.json { render json: @deck.errors, status: :unprocessable_entity }
       end
     end
-    #@deck.save
   end
 
   # GET /decks/1

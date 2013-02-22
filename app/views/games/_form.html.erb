@@ -1,22 +1,16 @@
-<%#= simple_form_for @game do |f| %>
-    <%#= f.label :name, "Game name" %>
-    <%#= f.text_field :name %>
-    <%#= f.fields_for :players do |builder| %>
-        <%#= render "players_fields", :f => builder %>
-    <%# end %>
-    <%#= link_to_add_fields "Add Player", f, :players %>
-      <%#= f.button :submit %>
-<%# end %>
 <%= javascript_include_tag :defaults, "nested_form" %>
 <%= nested_form_for @game do |f| %>
     <%= f.label :name, "Game name" %>
-        <%= f.text_field :name %>
-        <%= f.fields_for :players do |builder| %>
-            <%= render "players_fields", :f => builder %>
-            <%= builder.link_to_remove "Remove this player" %>
-        <% end %>
-
+    <%= f.text_field :name %>
+    <%= f.fields_for :players do |builder| %>
+        <%= render "players_fields", :f => builder %>
+        <%= builder.link_to_remove "Remove this player" %>
+    <% end %>
     <p><%= f.link_to_add "Add a player", :players %></p>
+    <%#= f.fields_for :deck do |builder| %>
+        <%#= render "deck_fields", :f => builder %>
+        <%#= builder.link_to_remove "Remove this player" %>
+    <%# end %>
 
     <%= f.button :submit %>
 <% end %>

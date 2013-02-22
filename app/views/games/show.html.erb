@@ -13,7 +13,7 @@
     <p> <%= p.id %> : <%= p.name %> : <%= p.has_cards %> </p>
  <%end%>
 
-
+<%= link_to 'Start', start_game_logic_path(@game) %>
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Show list of games', games_path %>
 

@@ -1,0 +1,3 @@
+<p>
+    <%= f.select :game_id, Game.all.map {|a| [a.name, a.id]}, :prompt=>"--Choose an deck--" %>
+</p>

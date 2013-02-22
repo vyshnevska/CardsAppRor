@@ -40,15 +40,15 @@
 </p>
 
 <p>
-  <b>Players:</b>
-  <%#= @deck.players %>
-</p>
-
-<p>
   <b>Trump:</b>
   <%= @deck.trump_card_id %>
+</p>
+<p>
+  <b>Game:</b>
+  <%= @deck.game_id %>
 </p>
 <%#= render @deck.cards %>
 
 <%= link_to 'Edit', edit_deck_path(@deck) %> |
 <%= link_to 'List of Decks', decks_path %>
+<%= link_to 'List of Games', games_path %>
