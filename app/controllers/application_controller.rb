@@ -1,5 +1,12 @@
+class GameManager
+  attr_accessor :game_status
+
+end
 class ApplicationController < ActionController::Base
   attr_accessor :game_status
+  helper_method :update_game_status
+
+  @gM = GameManager.new
   #protect_from_forgery
   #def index
   #  @decks = Deck.all
@@ -18,4 +25,12 @@ class ApplicationController < ActionController::Base
 
   end
 
+  def update_game_status (status)
+    @gM.game_status = status
+  end
+  def game_status
+    @gM.game_status
+  end
+
 end
+

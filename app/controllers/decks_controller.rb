@@ -38,6 +38,7 @@ class DecksController < ApplicationController
 
   def create
     @deck = Deck.new(params[:deck])
+    update_game_status("started")
     respond_to do |format|
       if @deck.save
         format.html { redirect_to @deck, notice: 'Deck was successfully created.' }
